@@ -1,0 +1,72 @@
+footer{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    color: white;
+}
+.contenu-footer{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 20px;
+    padding: 50px 0 50px;
+    color: white;
+}
+.bloc{
+    width: 25%;
+    margin: 0 30px;
+}
+.footer-contact h3, .footer-service h3,.footer-horaire h3, .footer-reseau h3{
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.footer-contact p{
+    padding: 5px;
+} 
+.liste-services ,
+.liste-horaires , 
+.liste-reseaux{
+    list-style-type: none;
+}
+.liste-services li{
+  padding: 2px 0;
+}
+.liste-services a , .liste-reseaux a{
+    text-decoration: none;
+    color: #333;
+}
+.liste-reseaux:hover{
+    color: rgb(71, 22, 117);
+}
+.liste-services:hover{
+    color: rgb(231, 120, 120);
+}
+.liste-services , .liste-reseaux,.liste-horaires{
+    position: relative;
+    right: 42px;
+}
+.liste-reseaux li a{
+    color: white;
+}
+ .liste-services li a{
+     color: white;
+ }
+
+ .droit{
+    flex-shrink: 0;
+    border-top:1px dashed #000;
+    background-color: rgb(48, 40, 40);
+    color: rgb(233, 223, 223);
+    margin-left: 42px;
+    margin-right: 41px;
+   
+ }
+ p{
+     padding-left: 500px;
+ }
